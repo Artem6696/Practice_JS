@@ -26,4 +26,11 @@ switch (num) {
         break;
     default:
         console.log("че каго");
-};
+}
+
+
+let value = 50;
+while (value < 55) {          // пока num меньше чем 55
+    console.log(value);      // мы будем выводить num
+    value++;             // каждый раз когда она будет повторяться она будет добавлять +1
+}
